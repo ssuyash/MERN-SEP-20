@@ -204,13 +204,69 @@ for(var i=0; i<numArray.length; i++){
 // console.log(index)
 
 
-var nums = [5, 3, 2, 7]
-var ans = nums[0]
+// var nums = [5, 3, 2, 7]
+// var ans = nums[0]
 
-for(var i = 1; i<nums.length; i++){
-    ans = ans-nums[i]
-}
+// for(var i = 1; i<nums.length; i++){
+//     ans = ans-nums[i]
+// }
 
-console.log(ans)
+// console.log(ans)
 //ans : -7
+
+
+var nums = [2, 4, 10, 15, 20, 12]
+
+// for(var i=0; i<nums.length; i++){
+//     var sum = 0
+//     for(var j=i; j<nums.length; j++){
+//         sum += nums[j]
+//     }
+//     console.log(sum)
+// }
+
+
+
+// for(var i=0; i<nums.length/2; i++){
+//     var indexEle = nums[i]
+//     var indexEleEnd = nums[nums.length-i-1]
+//     console.log(indexEle+indexEleEnd)
+// }
+
+// 6-0-1 = 5
+// 6-1-1 = 4
+
+// 0  5
+// 1  4
+// 2  3
+//14
+//24
+//35
+
+//63
+//61
+//51
+
+
+var arr = ["Alpna", 'Nandanee']
+//var arr = new Array()
+
+//1) insertion
+
+console.log(arr)
+
+//i) push => insert new element at the end of the array
+//arr.push("Arpita")
+
+
+//ii) unshift()
+//arr.unshift("Arpita")
+
+//2) deletion
+//i) pop() => removes element form the end of the array
+//arr.pop()
+
+//ii) shift() => removes element from the start of the array
+arr.shift()
+console.log(arr)
 
