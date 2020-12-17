@@ -1,0 +1,25 @@
+valentine =>  dark red / roses / heart
+herbal  => green / leafe
+coffee  => chocolaty color / coffe beans / cup  / coffe shape 
+It service => light blue / building / team 
+
+
+saffron  => energy
+
+
+
+domain ? => colors
+
+
+1) gradient 
+
+Red => Love, Energy, Intensity, Error, Danger
+Yellow = > Joy, Intellect, Attention
+Green => Freshness, Safety, Growth, Success, 
+Blue = > Trust, Stability, 
+
+
+Analogous Color 
+Complementary Color
+Split colors
+MonoChromacity

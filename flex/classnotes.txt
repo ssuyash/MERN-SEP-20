@@ -1,0 +1,17 @@
+flex => flexible
+
+
+flex-container - element which holds flex items.
+
+props : 
+    display:flex
+    flex-direction : 
+        row
+        column
+        row-reverse
+        column-reverse
+
+    justify-content - adjust alignment of items across main axis
+        center
+        space-around
+        space-between

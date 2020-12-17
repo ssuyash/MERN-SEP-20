@@ -1,0 +1,52 @@
+body{
+    background-color: #000;
+}
+
+.bg-banner{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+.fs-90{
+    font-size:90px;
+}
+
+
+.flex-1{
+    flex:1
+}
+
+.bor-rad-0{
+
+    border-radius: 0!important;
+}
+
+.sub-email-inp{
+    padding:35px 0px;
+}
+
+
+.subs-btn{
+    padding:20px 0px;
+}
+
+.bb-1-gray{
+    border-bottom: 1rem solid  #222222;
+}
+
+.faq-btn{
+    padding: 25px;
+    text-align: left;
+    background-color: #303030;
+    border:none;
+}
+.faq-btn:hover{
+    background-color: #303030;
+    border:0
+}
+
+.faq-btn:focus{
+    background-color: #303030;
+    border:0;
+    box-shadow: 0px;
+}

@@ -1,0 +1,30 @@
+
+
+Javascript => Scripting Language
+
+in web page : 
+    to write logics => 
+        html => building blocks 
+        css  => styling and positioning
+        js   => user interaction
+
+now :
+    Web applications = front end, backend, Database
+    Mobile Application => Android apps, ios apps
+    Desktop Application = > Cross Platform Desktop Apps
+
+
+Prgramming Language => Compile, interprete
+Scripting Language  => interpreted
+
+
+
+Language Basics 
+Application => dom
+to make Dom Operations easy => jQuery
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.bg-red{
+    background:red;
+}
+
+.h-350{
+    max-height: 950px;
+    min-height: 950px;
+    overflow: hidden;
+}
+
+
+.drop-menu{
+    width: 750px;
+}
+
+.card-bg{
+    background-color: #F6F9FC;
+}
+
+.card-custom{
+    border-radius: 10px;
+    box-shadow:-2px 7px 20px 1px grey
+}

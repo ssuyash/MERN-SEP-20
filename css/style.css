@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bg-yellow{
+    font-size:2rem;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-style: wavy;
+    color:#ff00ff;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 70px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.my-list{
+    list-style-image: url('https://www.seekpng.com/png/small/197-1973056_list-icon-png-list-icon-white-png.png');
+}
+
+
+.box{
+    background:pink;
+    padding-top:30px;
+    margin-top:30px;
+    border:10px double #faffef;
+}
+
+

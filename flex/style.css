@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.d-flex{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:stretch ;
+    height: 500px;
+    background: pink;
+}
+
+.item{
+    width: 200px;    
+    background: yellow;
+    border:1px solid black;
+}  
+
+.item-1{
+    order:3;
+    flex:1;
+}
+
+.item-2{
+    order: 1;
+    flex:1;
+}

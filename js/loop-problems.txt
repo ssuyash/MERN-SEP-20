@@ -1,0 +1,206 @@
+count the number of digit in given number.
+find sum of digit of a given number.
+
+
+
+
+29. Write a program to check whether a given number is an armstrong number or not.
+Test Data :
+Input a number: 153
+Expected Output :
+153 is an Armstrong number.
+
+
+
+30. Write a program to find the Armstrong number for a given range of number.
+Test Data :
+Input starting number of range: 1
+Input ending number of range : 1000
+Expected Output :
+Armstrong numbers in given range are: 1 153 370 371 407
+
+
+
+32. Write a program to determine whether a given number is prime or not.
+ Test Data :
+Input a number: 13
+Expected Output :
+13 is a prime number.
+
+
+34. Write a program to find the prime numbers within a range of numbers.
+Test Data :
+Input starting number of range: 1
+Input ending number of range : 50
+Expected Output :
+The prime number between 1 and 50 are :
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
+
+35. Write a program to display the first n terms of Fibonacci series.
+Fibonacci series 0 1 2 3 5 8 13 .....
+Test Data :
+Input number of terms to display : 10
+Expected Output :
+Here is the Fibonacci series upto to 10 terms :
+0 1 1 2 3 5 8 13 21 34
+
+
+37. Write a program to display the number in reverse order.
+Test Data :
+Input a number: 12345
+Expected Output :
+The number in reverse order is : 54321
+
+
+
+38. Write a program to check whether a number is a palindrome or not.
+Test Data :
+Input a number: 121
+Expected Output :
+121 is a palindrome number.
+
+
+39. Write a program to find the number and sum of all integer between 100 and 200 which are divisible by 9.
+Expected Output :
+Numbers between 100 and 200, divisible by 9 :
+108 117 126 135 144 153 162 171 180 189 198
+The sum : 1683
+
+
+
+41. Write a program to convert a decimal number into binary without using an array.
+Test Data :
+Enter a number to convert : 25
+Expected Output :
+The Binary of 25 is 11001.
+
+
+42. Write a program to convert a binary number into a decimal number without using array, function and while loop.
+Test Data :
+Input a binary number :1010101
+Expected Output :
+The Binary Number : 1010101
+The equivalent Decimal Number : 85
+
+
+
+43. Write a program to find HCF (Highest Common Factor) of two numbers.
+Test Data :
+Input 1st number for HCF: 24
+Input 2nd number for HCF: 28
+Expected Output :
+HCF of 24 and 28 is : 4
+
+44. Write a program to find LCM of any two numbers using HCF.
+Test Data :
+Input 1st number for LCM: 15
+Input 2nd number for LCM: 20
+Expected Output :
+The LCM of 15 and 20 is : 60
+
+45. Write a program to find LCM of any two numbers.
+Test Data :
+Input 1st number for LCM: 15
+Input 2nd number for LCM: 20
+Expected Output :
+The LCM of 15 and 20 is : 60
+
+46. Write a program to convert a binary number into a decimal number using math function.
+Test Data :
+Input the binary number :1010100
+Expected Output :
+The Binary Number : 1010100
+The equivalent Decimal Number is : 84
+
+47. Write a program to check whether a number is a Strong Number or not.
+Test Data :
+Input a number to check whether it is Strong number: 15 
+Expected Output :
+15 is not a Strong number.
+
+48. Write a program to find Strong Numbers within a range of numbers.
+Test Data :
+Input starting range of number : 1
+Input ending range of number: 200
+Expected Output :
+The Strong numbers are :
+1 2 145
+
+49. Write a program to find out the sum of an A.P. series.
+Test Data :
+Input the starting number of the A.P. series: 1
+Input the number of items for the A.P. series: 10
+Input the common difference of A.P. series: 4
+Expected Output :
+The Sum of the A.P. series are :
+1 + 5 + 9 + 13 + 17 + 21 + 25 + 29 + 33 + 37 = 190
+
+50. Write a program to convert a decimal number into octal without using an array.
+Test Data :
+Enter a number to convert : 79
+Expected Output :
+The Octal of 79 is 117.
+
+51. Write a program to convert an octal number to a decimal without using an array.
+Test Data :
+Input an octal number (using digit 0 - 7) :745
+Expected Output :
+The Octal Number : 745
+The equivalent Decimal Number : 485
+
+52. Write a program to find the Sum of GP series.
+Test Data :
+Input the first number of the G.P. series: 3
+Input the number or terms in the G.P. series: 5
+Input the common ratio of G.P. series: 2
+Expected Output :
+The numbers for the G.P. series:
+3.000000 6.000000 12.000000 24.000000 48.000000
+The Sum of the G.P. series : 93.000000
+
+53. Write a program to convert a binary number to octal.
+Test Data :
+Input a binary number :1001
+Expected Output :
+The Binary Number : 1001
+The equivalent Octal Number : 11
+
+54. Write a program to convert an octal number into binary.
+Test Data :
+Input an octal number (using digit 0 - 7) :57
+Expected Output :
+The Octal Number : 57
+The equivalent Binary Number : 101111
+
+
+55. Write a program to convert a decimal number to hexadecimal.
+Test Data :
+Input any Decimal number: 79
+Expected Output :
+The equivalent Hexadecimal Number : 4F
+
+56. Write a program to Check Whether a Number can be Express as Sum of Two Prime Numbers.
+Test Data :
+Input a positive integer: 16
+Expected Output :
+16 = 3 + 13
+16 = 5 + 11
+
+57. Write a program to print a string in reverse order.
+Test Data :
+Input a string to reverse : Welcome
+Expected Output :
+Reversed string is: emocleW
+
+58. Write a program to find the length of a string without using the library function.
+Test Data :
+Input a string : welcome
+Expected Output :
+The string contains 7 number of characters.
+So, the length of the string welcome is : 7
+
+59. Write a program to check Armstrong number of n digits.
+Test Data :
+Input an integer : 1634
+Expected Output :
+1634 is an Armstrong number

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{    
+    width: 95%;
+    margin: 0px auto;    
+}
+
+
+.header{
+    background: #333333;
+    padding: 15px 0px;
+    color:#C0BAB6
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+.menu{
+    width: 50%;
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.menu ul{
+list-style-type: none;
+}
+
+.menu ul li a{
+    color: #C0BAB6;
+    text-decoration: none;
+}
+
+.menu ul li{
+    float: left;
+    padding:0px 10px;
+    margin-top: 15px;
+}
+
+.left-body{
+ width: 15%;
+ float: left; 
+}
+
+.right-body{
+    width: 85%;
+    float: left;    
+}
+
+
+.mt-1{
+    margin-top:1rem
+}
+
+.mt-2{
+    margin-top:2rem
+}
+.mt-3{
+    margin-top:3rem
+}
+.mt-4{
+    margin-top:4rem
+}
+.mt-5{
+    margin-top:5rem
+}
+
+
+
+
+.link-container ul{
+    list-style-type: none;    
+}
+
+
+.link-container ul li {
+    border-bottom:1px dotted black;
+    padding:3px 0px;
+    list-style-image: url('./images/arrow.gif');
+}
+
+.link-container ul li a{
+    text-decoration: none;
+    color:#000;
+    
+}
+
+
+.link-container ul li a:hover{
+    color:orange;
+}
+
+
+.img-contaier{
+    width: 269px;
+    height: 100px;
+    padding:3px;
+    border:1px solid black;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.header{
+    background: red;
+    height: 50px;
+}
+
+.nav{
+    background: yellow;    
+}
+
+.left-body{
+    background:green;
+    height: 850px;
+    width: 20%;
+    float: left;
+    
+}
+
+.main-body{
+    background: blue;
+    height: 850px;
+    float: left;
+    width: 60%;
+}
+
+.right-body{
+    background: violet;
+    height: 850px;
+    width: 20%;
+    float: left;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.footer{
+    height: 30px;
+    background: black;
+}
+
+.nav ul{
+    list-style-type: none;      
+    margin-left:450px;    
+}
+
+.nav ul li{    
+    float:left;    
+    padding:20px 60px;
+    border: 1px solid black;
+}
+
+
+.nav ul li:hover{
+    background:white;
+    color: #000;
+}
+
+.nav ul li a{
+    text-decoration:none;
+    font-weight: 600;
+    font-size:1.2rem;
+}

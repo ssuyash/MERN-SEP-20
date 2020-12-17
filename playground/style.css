@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.parent{
+    background: yellow;
+    padding: 25px 0px;
+    width: 1536px;
+}
+
+.child{
+    width:758px;
+    float: left;
+    
+}
+
+.child-1{
+    background-color: green;
+}
+
+.child-2{
+    background-color: pink;
+    margin-left:20px;
+}
+
+.clear-fix{
+    clear:both
+}

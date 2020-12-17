@@ -1,0 +1,256 @@
+Step 1 : 
+    Open VS Code (Install VS Code)
+
+    notepad
+    notepad++
+    dreamwaver
+    sublime Text
+    atom
+    eclipse
+    netbeans
+    VS Code (MERN Stack)
+
+Step 2 :
+    Create new file
+        i) go to file menu > new file 
+                    or
+            Ctrl + N
+
+Step 3 :
+        Save File using File > Save
+                    or
+            Ctrl + s
+
+
+=================================================
+
+HTML >>> Hyper Text Markup Language
+    Language >
+        Markup
+        Programming Language
+        Scripting Language
+
+Grammer : Rules
+Vocab  : Words
+
+tag Language
+    <tag></tag>
+    <tag/>
+
+attributes 
+    <tag attr="value"></tag>
+        or
+    <tag attr='value'></tag>
+
+Vocab 
+    html tags
+
+
+===================================================
+
+basic structure
+
+===================================================
+headings
+    h1
+    h2
+    h3
+    h4
+    h5
+    h6
+
+
+paragraphs
+    p
+    paragraph formatting : 
+        strong - to make text bold
+        em - to make text italic
+        u - for underline
+        sub - for subcrpting
+        sup - for superscripting
+        br - for line break
+
+images(media)
+    <img src="/path/to/image">
+        .jpg
+        .JPEG
+        .png
+        .gif
+        .webp
+        .svg
+
+    relative path
+        -> path from current working directory
+            . => current working directory
+            .. => one level up
+            / => inside a directory
+
+            
+    absolute path
+        url of the image
+
+
+links
+    for connecting to urls
+    a 
+     href => link
+     target => _blank => opens page in new tab
+
+lists
+    orderd lists => ol  => orderd list
+                        li => list item
+
+                            type
+                                1
+                                i
+                                I
+                                a
+                                A
+                            
+                            start
+                                number
+
+
+    unordered list  => ul > unordered list
+                        li => list item
+                            type
+                             disc
+                             circle
+                             square
+
+
+                                
+
+    
+
+table
+
+    -table
+        -thead                          Table Head
+            -tr                         Table Row
+                -th                     Table heading
+        -tbody                          Table Body
+            -tr                         Table row
+                -td                     Table Data
+
+
+form
+
+    input
+        type
+            text
+            number
+            password
+            range
+            email
+            color
+            file
+            radio            
+            checkbox
+            date
+            
+    select
+    textarea
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CSS => Cascading Style Sheet
+Design Html Elements - Positioning, color, formatting, Background
+
+How to write :-
+    prop:value;
+    prop:value;
+
+Where to write :-
+    1) Inline CSS - 
+        inside any html tag using style attribute
+    
+    2) Internal CSS
+        inside head tag within style tag (using selectors to select elements)
+    
+    3) External CSS (always use this)
+        > We create a new .css file
+        > Inside head tag we link that css file to our html document using link tag
+            example : (<link rel="stylesheet" href="/path/to/css">)
+
+    
+
+
+
+selectors:
+    > Tag Name selectors
+        directly write the name of html tag
+    
+    > Id selectors
+        :- first we give id to any html element using id attribute (Id should be unique in a page)
+        :- then in css we select that id using #idName
+
+    > Class Name Selector
+        :- first we give class to any html element using class attribute.
+        :- then in css we select that class using .className
+
+
+
+css Properties:
+1) font-size   => px, em (1em = 16px), rem 
+2) font-weight => bold, bolder, numeric values
+3) font-family => 1) Local Fonts
+                    i)   download fonts from internet
+                    ii)  generate font face for downloaded fonts]
+                    iii) link generated face to css
+                2) Link from google fonts
+
+4) text-decoration-color : color value
+5) text-decoration-style : dashed, dotted, wavy, double
+6) color : 
+            i) color name (red, orange, pink)]
+            ii) RGB (rgb(), rgba(), hex)
+            iii) CMYK (Cyan, Megenta, Yellow, Black)
+            iv) HSL
+
+7) text-transform :
+            uppercase
+            lowercase
+            capitalize
+
+8) text-align 
+            left 
+            center 
+            right 
+            justify
+
+9)  text-indent     -> gives indent to paragraph
+10) letter-spacing  -> inc/decrese space between letters
+11) word-spacing    -> inc/decrese space between words
+12) line-height     -> inc/decrese space between line
+
+
+13) list-style-type     -> armenian
+                            circle
+                            etc
+
+
+14) list-style-image    -> url('/path/to/image')
+
+
+
+
+
+2 types of html elements (display):
+    1) Block Elements  => full width
+    2) Inline Elements => width equal to content size
+
+
+
+display =>
+    inline
+    block
+    inline-block
+
+
+
+to insepect the code - 
+in chrome browser
+1) right click on document > inspect
+2) ctrl+shift+i
+3) press F12
