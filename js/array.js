@@ -248,12 +248,12 @@ var nums = [2, 4, 10, 15, 20, 12]
 //51
 
 
-var arr = ["Alpna", 'Nandanee']
+//var arr = ["Alpna", 'Nandanee']
 //var arr = new Array()
 
 //1) insertion
 
-console.log(arr)
+//console.log(arr)
 
 //i) push => insert new element at the end of the array
 //arr.push("Arpita")
@@ -267,6 +267,66 @@ console.log(arr)
 //arr.pop()
 
 //ii) shift() => removes element from the start of the array
-arr.shift()
-console.log(arr)
+//arr.shift()
+//console.log(arr)
 
+
+var nums = [10, 20, 25, 10, 62, 35]
+var evens = []
+var odds = []
+
+
+for(var i=0; i<nums.length; i++){
+    if(nums[i]%2 == 0){
+        //even
+        evens.push(nums[i])
+    }else{
+        //odd
+        odds.push(nums[i])
+    }
+}
+
+
+
+
+
+console.log(evens) // 10 20 10 62
+console.log(odds) // 25 35
+
+
+//document.write(nums.toString())
+
+
+
+
+// var nums = [10, 20, 25, 10, 62, 35]
+// var benchmark = 25
+
+// var lessThenBenchamrk = []
+// var greaterThenBenchamrk = []
+
+// for(var i=0; i<nums.length; i++){
+//     if(nums[i] > benchmark){
+//         //even
+//         greaterThenBenchamrk.push(nums[i])
+//     }else{
+//         //odd
+//         lessThenBenchamrk.push(nums[i])
+//     }
+// }
+
+
+var nums = ['e', 's', 'l', 'i', 't' ]
+var vowel = []
+var consonents = []
+
+
+//a, e, i, o, u
+for(var i=0; i<nums.length; i++){
+    var chr = nums[i]    
+    if(chr == 'a' || chr=='e' || chr=='i' || chr=='o' || chr=="u"){
+        vowel.push(chr)
+    }else{
+        consonents.push(chr)
+    }
+}
