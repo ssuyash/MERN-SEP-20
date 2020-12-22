@@ -1,139 +1,139 @@
-// group of data
+// // group of data
 
 
-//how to make array
+// //how to make array
 
-var students = ['aplna', 'bhavisya', 'piyush', 'nandanee', 'suyash']
-//var students = new Array('aplna', 'bhavisya', 'piyush', 'nandanee')
-
-
-
-//indexing >> starts from 0
-console.log(students[1])
-
-
-//prperties : 
-//i) length >> returns length of given array
-console.log(students.length)
-
-students[4] = "kumar"
-
-for(var i = 0; i < students.length; i++){
-    console.log(students[i])
-}
+// var students = ['aplna', 'bhavisya', 'piyush', 'nandanee', 'suyash']
+// //var students = new Array('aplna', 'bhavisya', 'piyush', 'nandanee')
 
 
 
-
-//create an array of number type elements and increase number by a given number
-var numArray = [51, 12, 145, 25, 32, 85]
-var number = 5
-
-//logic
-for(var i=0; i<numArray.length; i++){
-    numArray[i] = numArray[i] + number
-}
+// //indexing >> starts from 0
+// console.log(students[1])
 
 
-//console.log(numArray)// [56, 17, 150, 30, 37, 90]
+// //prperties : 
+// //i) length >> returns length of given array
+// console.log(students.length)
 
-for(var i=0; i<numArray.length; i++){     
-    if(numArray[i] % 2 == 0){
-        console.log(numArray[i], " is even")
-    }else{
-        console.log(numArray[i], " is odd ")
-    }
-}
+// students[4] = "kumar"
 
-
-
-//loop array object
-
-
-//check number is prime or not 
-// check number is amstrong
-// calculate square of every number
-
-
-//prime number =>  number which is only divisible by 1 or self
-
-function isPrime(num){
-    var prime = true
-    for(var i=2; i<num; i++){
-        if(num%i == 0){
-            prime = false
-            break
-        }
-    }
-    return prime
-}
-
-
-var numArray = [51, 12, 145, 25, 32, 85, 29, 153]
-
-
-for(var i=0; i<numArray.length; i++){
-    var num = numArray[i]
-
-    var isprime = isPrime(num)
-
-    if(isprime == true){
-        console.log(num, 'is a prime number')
-    }else{
-        console.log(num, 'is not a prime number')
-    }
-}
-
-
-// amstrong number => if the sum of power of digit of number by the number of digit in that number is equal to number itself
-
-//2) number of digits 
-//3) digits of the number
-
-
-function getNumOfDigits(number){
-    var digits = 0
-    while(number != 0){
-        number = Math.floor(number/10)
-        digits++
-    }
-    return digits
-}
+// for(var i = 0; i < students.length; i++){
+//     console.log(students[i])
+// }
 
 
 
 
-function isAmstrong(number){
-    var numberCpy = number
-    var numOfDigit = getNumOfDigits(number)
-    var sum = 0    
-    while(number != 0){
-        var lstDigit = number%10;
-        sum += Math.pow(lstDigit, numOfDigit)
-        number = Math.floor(number/10)
-    }
+// //create an array of number type elements and increase number by a given number
+// var numArray = [51, 12, 145, 25, 32, 85]
+// var number = 5
 
-    if(numberCpy == sum){
-        return true
-    }else{
-        return false
-    }
+// //logic
+// for(var i=0; i<numArray.length; i++){
+//     numArray[i] = numArray[i] + number
+// }
+
+
+// //console.log(numArray)// [56, 17, 150, 30, 37, 90]
+
+// for(var i=0; i<numArray.length; i++){     
+//     if(numArray[i] % 2 == 0){
+//         console.log(numArray[i], " is even")
+//     }else{
+//         console.log(numArray[i], " is odd ")
+//     }
+// }
+
+
+
+// //loop array object
+
+
+// //check number is prime or not 
+// // check number is amstrong
+// // calculate square of every number
+
+
+// //prime number =>  number which is only divisible by 1 or self
+
+// function isPrime(num){
+//     var prime = true
+//     for(var i=2; i<num; i++){
+//         if(num%i == 0){
+//             prime = false
+//             break
+//         }
+//     }
+//     return prime
+// }
+
+
+// var numArray = [51, 12, 145, 25, 32, 85, 29, 153]
+
+
+// for(var i=0; i<numArray.length; i++){
+//     var num = numArray[i]
+
+//     var isprime = isPrime(num)
+
+//     if(isprime == true){
+//         console.log(num, 'is a prime number')
+//     }else{
+//         console.log(num, 'is not a prime number')
+//     }
+// }
+
+
+// // amstrong number => if the sum of power of digit of number by the number of digit in that number is equal to number itself
+
+// //2) number of digits 
+// //3) digits of the number
+
+
+// function getNumOfDigits(number){
+//     var digits = 0
+//     while(number != 0){
+//         number = Math.floor(number/10)
+//         digits++
+//     }
+//     return digits
+// }
+
+
+
+
+// function isAmstrong(number){
+//     var numberCpy = number
+//     var numOfDigit = getNumOfDigits(number)
+//     var sum = 0    
+//     while(number != 0){
+//         var lstDigit = number%10;
+//         sum += Math.pow(lstDigit, numOfDigit)
+//         number = Math.floor(number/10)
+//     }
+
+//     if(numberCpy == sum){
+//         return true
+//     }else{
+//         return false
+//     }
     
-}
+// }
 
 
 
-for(var i=0; i<numArray.length; i++){
-    var num = numArray[i]
+// for(var i=0; i<numArray.length; i++){
+//     var num = numArray[i]
 
-    var isprime = isAmstrong(num)
+//     var isprime = isAmstrong(num)
 
-    if(isprime == true){
-        console.log(num, 'is a Amstrong number')
-    }else{
-        console.log(num, 'is not a Amstrong number')
-    }
-}
+//     if(isprime == true){
+//         console.log(num, 'is a Amstrong number')
+//     }else{
+//         console.log(num, 'is not a Amstrong number')
+//     }
+// }
 
 
 
@@ -271,27 +271,27 @@ var nums = [2, 4, 10, 15, 20, 12]
 //console.log(arr)
 
 
-var nums = [10, 20, 25, 10, 62, 35]
-var evens = []
-var odds = []
+// var nums = [10, 20, 25, 10, 62, 35]
+// var evens = []
+// var odds = []
 
 
-for(var i=0; i<nums.length; i++){
-    if(nums[i]%2 == 0){
-        //even
-        evens.push(nums[i])
-    }else{
-        //odd
-        odds.push(nums[i])
-    }
-}
+// for(var i=0; i<nums.length; i++){
+//     if(nums[i]%2 == 0){
+//         //even
+//         evens.push(nums[i])
+//     }else{
+//         //odd
+//         odds.push(nums[i])
+//     }
+// }
 
 
 
 
 
-console.log(evens) // 10 20 10 62
-console.log(odds) // 25 35
+// console.log(evens) // 10 20 10 62
+// console.log(odds) // 25 35
 
 
 //document.write(nums.toString())
@@ -316,17 +316,72 @@ console.log(odds) // 25 35
 // }
 
 
-var nums = ['e', 's', 'l', 'i', 't' ]
-var vowel = []
-var consonents = []
+// var nums = ['e', 's', 'l', 'i', 't' ]
+// var vowel = []
+// var consonents = []
 
 
-//a, e, i, o, u
-for(var i=0; i<nums.length; i++){
-    var chr = nums[i]    
-    if(chr == 'a' || chr=='e' || chr=='i' || chr=='o' || chr=="u"){
-        vowel.push(chr)
-    }else{
-        consonents.push(chr)
-    }
-}
+// //a, e, i, o, u
+// for(var i=0; i<nums.length; i++){
+//     var chr = nums[i]    
+//     if(chr == 'a' || chr=='e' || chr=='i' || chr=='o' || chr=="u"){
+//         vowel.push(chr)
+//     }else{
+//         consonents.push(chr)
+//     }
+// }
+
+
+// var nums = [10, 20, 30, 40, 55, 20]
+// //indexOf() => return the first index of item if it is avl in array otherwise returns -1
+// var ind = nums.indexOf(120)
+
+
+
+// //lastIndexOf() => return the last index of item if it is avl in array otherwise returns -1
+// var ind = nums.lastIndexOf(20)
+
+// console.log(ind)
+
+
+
+// var nums = [10, 20, 50, 10, 100, 30, 50, 40, 20, 10, 20, 10, 100]
+// var unq = [] 
+
+// for(var i=0; i<nums.length; i++){
+//     if(unq.indexOf(nums[i]) == -1){
+//         unq.push(nums[i])
+//     }    
+// }
+
+
+// var nums = [10, 20, 50, 10, 100, 30, 50, 40, 20, 10, 20, 10, 100]
+// var checkArray = [50, 10, 20, 11, 130, 60, 20,  50]
+// var foundArray = []
+
+// for(var i=0; i<checkArray.length; i++){
+//     var num = checkArray[i]
+//     if(nums.indexOf(num) != -1  && foundArray.indexOf(num) == -1){        
+//             foundArray.push(num)        
+//     }
+// }
+
+// console.log(foundArray) // [10, 20, 50, 100, 30, 40]
+
+
+var nums = [1, 2, 3, 4, 5]
+
+[1]
+[1, 2]
+[1,2,3]
+[1,2,3,4]
+[1,2,3,4, 5]
+
+[2]
+[2,3]
+[2,3,4]
+[2,3,4,5]
+
+[3]
+[3,4]
+[3,4,5]
