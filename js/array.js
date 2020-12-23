@@ -369,19 +369,42 @@ var nums = [2, 4, 10, 15, 20, 12]
 // console.log(foundArray) // [10, 20, 50, 100, 30, 40]
 
 
-var nums = [1, 2, 3, 4, 5]
+var nums = [10, 12, 32, 14, 50]
 
-[1]
-[1, 2]
-[1,2,3]
-[1,2,3,4]
-[1,2,3,4, 5]
+// for(var k=0; k<nums.length; k++){
+//     for(var i=k; i<nums.length; i++){
+//         for(var j=k; j<=i; j++){
+//             console.log(nums[j])
+//         }
+//     }    
+// }
 
-[2]
-[2,3]
-[2,3,4]
-[2,3,4,5]
 
-[3]
-[3,4]
-[3,4,5]
+
+//forEach()  => iterate an array
+nums.forEach(function(e, index){
+    console.log(e*e)
+})
+
+
+//map => performs given function to every element of array and returns a new array.
+
+
+var sqrArr = []
+
+var sqr = function(num){
+    return num*num
+}
+
+nums.forEach(function(ele){
+    var numSqr = sqr(ele)
+    sqrArr.push(numSqr)
+})
+
+console.log(sqrArr)
+
+var newArr = nums.map(function(el){
+    return el*el
+})
+
+console.log(newArr)
