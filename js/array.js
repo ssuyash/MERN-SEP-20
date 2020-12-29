@@ -390,21 +390,133 @@ nums.forEach(function(e, index){
 //map => performs given function to every element of array and returns a new array.
 
 
-var sqrArr = []
+// var sqrArr = []
 
-var sqr = function(num){
-    return num*num
-}
+// var sqr = function(num){
+//     return num*num
+// }
 
-nums.forEach(function(ele){
-    var numSqr = sqr(ele)
-    sqrArr.push(numSqr)
+// nums.forEach(function(ele){
+//     var numSqr = sqr(ele)
+//     sqrArr.push(numSqr)
+// })
+
+// console.log(sqrArr)
+
+// var newArr = nums.map(function(el){
+//     return el*el
+// })
+
+// console.log(newArr)
+
+
+// var persons = [
+//     {name:"suyash", age:15},
+//     {name:"bhavisya", age:55},
+//     {name:"alpna", age:18},
+//     {name:"Piyush", age:21},
+// ]
+
+
+
+// var canVote = []
+// var canNotVote = []
+
+// persons.forEach(function(ele){
+//     if(ele.age >= 18){
+//         canVote.push(ele)
+//     }else{
+//         canNotVote.push(ele)
+//     }
+// })
+
+
+// console.log(canVote, canNotVote)
+
+
+var products = [
+    {name:"iphone 8 ", brand:"apple", price:999},
+    {name:"samsung note ", brand:"samsung", price:999},
+    {name:"note 8 ", brand:"mi", price:999},
+    {name:"note 9 ", brand:"mi", price:999},
+    {name:"m 13", brand:"oppo", price:999},
+    {name:"n 14", brand:"vivo", price:999},
+]
+
+products.forEach(function(product, ind){
+    if(product.brand == "mi"){
+        console.log(ind)
+    }
 })
 
-console.log(sqrArr)
+var brands = ['apple', 'samsung']
 
-var newArr = nums.map(function(el){
-    return el*el
+var result = products.filter(function(product){
+    return brands.indexOf(product.brand) != -1
 })
 
-console.log(newArr)
+
+
+// var result = []
+
+// product.forEach(function(item){
+//     if(brands.indexOf(item.brand) != -1){
+//         result.push(item)
+//     }
+// })
+
+
+// console.log(result)
+
+//filter => return a new array of those elements for which the given check has been passed.
+
+var ages = [10, 20, 15, 21, 14, 11, 30]
+
+
+
+
+var voters = ages.filter(function(age){
+    return age>=18
+    // if(age>=18){
+    //     return true
+    // }else{
+    //     return false
+    // }
+})
+console.log(voters)
+
+
+var nums = [10, 20, 30, 40]
+var result = nums.reduce(function(el1, el2){
+    return el1+el2
+})
+
+
+
+var ind = products.findIndex(function(el){
+    console.log(el)
+    return el.brand == "mi"
+})
+console.log(ind)
+
+
+var product = products.find(function(el){
+    return el.brand == "mi"
+})
+console.log(product)
+
+
+var voters = [21, 20, 19, 18, 10]
+
+var ans = voters.every(function(el){
+    return el >= 18
+})
+
+console.log(ans)
+
+
+var ans = voters.some(function(el){
+    return el >= 18
+})
+
+console.log(ans)

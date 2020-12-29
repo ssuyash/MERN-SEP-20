@@ -4,7 +4,7 @@ function a(b){
 
 
 a(function(name){
-    console.log("hello")
+    console.log("hello", name)
 })
 
 
