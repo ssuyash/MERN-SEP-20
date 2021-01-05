@@ -68,3 +68,39 @@ console.log(finalStr)
 
 
 
+function generateOtp(digit){
+    var allowedChar = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+|"
+    var otp = ""
+    for(var i=0; i<digit; i++){
+        var randNum = Math.floor((Math.random()*100) % allowedChar.length)
+        console.log(randNum)
+        otp += allowedChar[randNum]
+    }
+    return otp
+}
+
+console.log(generateOtp(6))
+
+var str1 = "this is a phone and it is a iphone"
+var str2 = "my speaker is not working"
+
+var splitted1 = str1.split(" ")
+var splitted2 = str2.split(" ")
+
+var bigStrLen = splitted1.length > splitted2.length ? splitted1.length : splitted2.length
+
+var finalStr = ""
+
+for(var i=0; i<bigStrLen; i++){
+    if(i < splitted1.length  ){
+        finalStr += splitted1[i] +" "
+    }
+
+    if( i< splitted2.length ){
+        finalStr += splitted2[i] +" "
+    }
+}
+
+console.log(finalStr)
+
+//"this my is speaker a is phone not working"
