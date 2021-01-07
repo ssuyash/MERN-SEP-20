@@ -1,0 +1,27 @@
+1) events
+2) new element add         
+3) remove 
+4) text & html
+    .text()       => return the text of selected element
+    .text(newText) => change the text of selected element
+    .html() 
+    .html(newHtml) 
+
+5) attributes 
+    .attr(attrName)
+    .attr(attrName, newValue)
+
+6) css 
+    .css('prop')
+    .css('prop', 'value')
+
+    .addClass(className)
+    .removeClass(className)
+    .toggleClass(className)
+    
+7) animate 
+
+
+
+getter function => get 
+setter function => set/change 
