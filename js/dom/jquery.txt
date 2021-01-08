@@ -1,6 +1,11 @@
 1) events
-2) new element add         
+
+2) new element add             
+    append()
+    prepend()
+
 3) remove 
+    remove()
 4) text & html
     .text()       => return the text of selected element
     .text(newText) => change the text of selected element
@@ -18,10 +23,17 @@
     .addClass(className)
     .removeClass(className)
     .toggleClass(className)
-    
+
 7) animate 
 
 
 
 getter function => get 
 setter function => set/change 
+
+
+8) form values 
+    val() 
+    val(newValue)
+
+9) dom traversing
