@@ -1,0 +1,40 @@
+dom traversing
+
+Upword traversing/ancestors
+1) parent()
+    returns immediate parent of selected node
+
+2) parents()
+    returns all parents till html
+
+3) parentsUntil()
+    return all parents till given selector
+
+
+Downword traversing/descendants
+1) children()
+    return all children 
+2) find()
+    return specific find item
+
+
+
+Sibling Traversing 
+1) siblings()
+    returns all sibling elements 
+
+2) next() 
+    return the next sibling 
+
+3) nextAll() 
+    returns next all siblings 
+
+4) nextUntil()
+    return next all siblings till given selector 
+
+5) prev() 
+6) prevAll() 
+7) prevUntil() 
+
+
+
