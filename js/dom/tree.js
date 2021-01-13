@@ -7,5 +7,4 @@ $('body').on('dblclick', '.edit', function(){
 })
 
 
-
 })
