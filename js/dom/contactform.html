@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .err{
+            border:1px solid red;
+        }
+
+        .scs{
+            border:1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form id="contactform">
+        <label>Name</label>
+        <input type="text" id="name"><br>
+        <span id="err-name"></span><br>
+
+        <label>Email</label>
+        <input type="text" id="email"><br>
+        <span id="err-email"></span><br>
+
+        <label>Mobile Number</label>
+        <input type="text" id="mbl"><br>
+        <span id="err-mbl"></span><br>
+
+        <label>message</label>
+        <textarea id="msg"></textarea><br>
+        <span id="err-mbl"></span><br>
+
+        <button type="submit">Contact US</button>
+
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+    <script src="./contactform.js"></script>
+</body>
+
+</html>

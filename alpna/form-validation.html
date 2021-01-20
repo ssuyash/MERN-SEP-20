@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    .err{
+        border:1px solid red;
+    }
+    .sus{
+        border:1px solid green;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto card p-5">
+                <form>
+                    <div class="row pb-4">
+                        <label class="col-3">Name</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="username">
+                            <span id="username-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Number</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="number">
+                            <span id="num-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Email</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="email">
+                            <span id="email-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Password</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="password">
+                            <span id="pass-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Address</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="address">
+                            <span id="address-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Massage</label>
+                        <div class="col-md-9">
+                            <textarea id="massage" class="form-control"></textarea>
+                            <span id="masg-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Age</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="age">
+                            <span id="age-err"></span><br>
+                        </div>
+                    </div>
+
+                    <div class="row pb-4">
+                        <label class="col-3">Education</label>
+                        <div class="col-md-9">
+                            <select class="form-control" id="edu">
+                            <option>Select</option>
+                            <option>B.E.</option>
+                            <option>BBA</option>
+                            <option>B.COM</option>
+                            <option>MA</option>
+                            <option>BSC</option>
+                            <option>BCA</option>
+                            </select>
+                            <span id="edu-err"></span><br>
+                        </div>
+                      </div>
+
+                      <div class="row pb-4">
+                        <label class="col-3">Gender</label>
+                        <div class="col-md-9">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="radios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Male
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="radios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Female
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+            
+                    <input type="checkbox" id="check">I agree to terms and conditions<br>
+            
+            
+                    <button type="submit" id="btn-submit" disabled="disabled" class="btn btn-primary mx-auto">save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="jq.js"></script>
+</body>
+</html> 
