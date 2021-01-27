@@ -104,11 +104,48 @@ console.log(greet)
 //OOPS => class, object, this
 
 
+//OOP => Object Oriented Programming (Concept)
+
+//class => blueprint (properties, methods)  => Ojbect
+
+//constructor()
+
+//this => context
+
+//inharitance => extend
 
 
- 
+
+class Person{
+    //this => current calling object    
+    constructor(name, yob){
+        this.name = name
+        this.yob = yob
+    }
+
+    display(){
+        console.log("hello from this person class")
+    }
+
+    getAge(){
+        return (2021-this.yob)
+    }
+}
 
 
+let p1 = new Person("Alpna", 1994)
+let p2 = new Person("XYZ", 1990)
+
+console.log(p1.getAge())
+console.log(p2.getAge())
+
+
+
+
+
+class Student extends Person{
+
+}
 
 
 
