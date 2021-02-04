@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import FirstComponent from './components/FirstComponent';
+import Greet from './components/Greet'
 
 
 export default class App extends Component{
@@ -10,10 +11,7 @@ export default class App extends Component{
 
    return (
     <div>
-      <FirstComponent name="suyash"/>
-      <FirstComponent name="alpna"/>
-      <FirstComponent name="bhavishya"/>
-      <FirstComponent name="piyush"/>
+      <Greet name="Alpna" time="morning" />      
     </div>
 
   

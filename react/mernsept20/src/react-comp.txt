@@ -1,13 +1,15 @@
-"declarative"
+library - UI Components
+
+"declarative" -> UI for every state should be declare in advance
 
 "component everywhere"
 
 types to create component : 
-1) functional 
-2) classbased 
+1) functional
+2) classbased
 
 
-classbases : 
+classbased : 
 (a js class extends react component class and having render method)
 
 1) import React and Component from react package
@@ -17,11 +19,14 @@ classbases :
 
 
 component => UI + data + logic
+
+
 UI => jsx (javascript xml) => like html (having some specific rules)
     1) u can write only one tag at top level
     2) every tag must be closed
     3) can not use class keyword for applying css, instead of class use "className".
     4) can not use "for", instead of for use "htmlFor"
+
     5) we can use js variable and expressions(function call, operation) in jsx using {}
     6) we can render conditionally using ternary operator (? : )
 
@@ -45,3 +50,8 @@ data =>
                 }
         to change the value of state :
             use this.setState({})
+
+
+logic => 
+        1) add Event Listners on elements
+        2) pass function to it
